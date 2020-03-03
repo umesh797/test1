@@ -7,5 +7,8 @@
 </head>
 <body>
 	<p>This is Home Page</p>
+	<p>Explanation: In git if you have a remote you are dealing with 2 distinct repositories (local and remote). After you do git checkout staging, you actually create a distinct local name that represents the remote branch. git revert actually doesn't delete your commit, but it creates a new commit on top, that undoes all the changes (if you added a file - the new commit will remove it, if you removed a line - the new commit will add it back etc.), i.e. it is an addition to the log, that's why the push will be clean.
+
+If you want to really make it gone, so that nobody can blame you, you can do at your risk:</p>
 </body>
 </html>
